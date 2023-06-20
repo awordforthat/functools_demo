@@ -57,5 +57,5 @@ end_callback = {
     "id": "end",
 }
 
-timer = BlockingTimer(3, [beginning_callback, middle_callback, end_callback])
+timer = BlockingTimer(2, [beginning_callback, middle_callback, end_callback])
 timer.start()
