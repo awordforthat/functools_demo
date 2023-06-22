@@ -1,7 +1,9 @@
 """
 This exercise is to check your understanding of how caches work. There's not much 
 implementation to be done (just one line) - rather, your job is to make the assertions
-pass.
+pass. Note that each block builds on the last, so don't comment any blocks out or
+clear the cache. The idea is to figure out the state of the cache at each step, and
+predict for each new call to `factorial` how many hits and misses the cache will report. 
 
 So first, add the cache decorator to the `factorial` function. The `functools` module
 has been imported for you already.
